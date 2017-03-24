@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">Medizinischen Bereich</string>
+    <string name="phrases">Ausdrüke</string>
+    <string name="AdministrativeMatter">Verwaltung</string>
+    <string name="QuickTranslator">Schnellübersetzer</string>
+    <string name="Patient">Kranke</string>
+    <string name="Emergencies">Notfälle</string>
+    <string name="FamilyDoctor">Hausarzt</string>
+    <string name="Ear">Ohr/Nasen-Rachen</string>
+    <string name="OralHealth">Mundgesundheit</string>
+    <string name="Vision">Augenheilkunde</string>
+    <string name="Gynecology">Gynäkologie</string>
+    <string name="Neurology">Neurologie</string>
+    <string name="Cardiology">Kardiologie</string>
+    <string name="MentalHealth">Psychische Gesundheit</string>
+    <string name="Digestive">Verdauungssystem</string>
+    <string name="Respiratory">Atem</string>
+    <string name="UrogenitalSystem">Urogenitalsystem</string>
+    <string name="Dermatology">Dermatologie</string>
+    <string name="NervousSystem">Nervensystem</string>
+    <string name="Traumatology">Traumatologie</string>
+    <string name="Obstetrics">Geburtshilfe</string>
+    <string name="Pediatrics">Kinderheilkunde</string>
+    <string name="selectSymptoms">Wählen Sie Ihre Symptome</string>
+    <string name="selectHistory">Wählen Sie Ihre Geschichte</string>
+    <string name="selectAllergies">Wählen Sie Ihre Allergien</string>
+    <string name="country_prompt">Ich bin/yo soy</string>
+    <string name="Translatebtn">Übersetzen/Traducir</string>
+    <string name="HearTranslationbtn">Hören/Escuchar</string>
+    <string name="Listen">Hören</string>
+    <string name="TranslationArea">Übersetzung/Traducción</string>
+    <string name="Symptoms">Symptome</string>
+    <string name="Problems">Problem</string>
+    <string name="LoadingSymptoms">Laden Symptome. Warten Sie mal ...</string>
+    <string name="LoadingProblems">Laden Probleme. Warten Sie mal ...</string>
+    <string name="AllergiesHistoryButton">Allergien / History</string>
+    <string name="Indications">Hinweise</string>
+    <string name="ChangeUser">Benutzer wechseln</string>
+    <string-array name="patient_professional">
+        <item>Kranke</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">Main</string>
+    <string name="settings">Einstellungen</string>
+    <string name="help">Hilfe</string>
+    <string name="SendToEmail">Senden Sie Ihre E-Mail</string>
+    <string name="Send">Senden</string>
+    <string name="Diagnosis">Diagnose</string>
+    <string name="Protocol">Protokoll</string>
+    <string name="response">Antwort:</string>
+</resources>

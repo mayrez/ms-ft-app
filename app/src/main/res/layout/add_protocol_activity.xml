@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarilloBeige">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Añada Protocolo"
+        android:id="@+id/addProtocolTitleText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/titleTGreyTextColor"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBarraHorizontal"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Escriba el Protocolo:"
+        android:id="@+id/writeProtocolText"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/protocoladded"
+        android:layout_below="@+id/writeProtocolText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Introduzca url de un video (opcional):"
+        android:id="@+id/WriteVideoURLText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar "
+        android:id="@+id/sendProtocolBtn"
+        android:layout_marginTop="57dp"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:background="@drawable/button_shadow"
+        android:onClick="onClickSendButton"
+        android:layout_below="@+id/videoaddedUrl"
+        android:layout_alignLeft="@+id/addProtocolTitleText"
+        android:layout_alignStart="@+id/addProtocolTitleText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:id="@+id/addProtocolBtn"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:background="@drawable/button_shadow"
+        android:onClick="onClickNextButton"
+        android:layout_alignTop="@+id/sendProtocolBtn"
+        android:layout_alignRight="@+id/writeProtocolText"
+        android:layout_alignEnd="@+id/writeProtocolText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_alignTop="@+id/videoaddedUrl"
+        android:layout_alignLeft="@+id/protocoladded"
+        android:layout_alignStart="@+id/protocoladded"
+        android:id="@+id/videoaddedUrl"
+        android:layout_below="@+id/WriteVideoURLText"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

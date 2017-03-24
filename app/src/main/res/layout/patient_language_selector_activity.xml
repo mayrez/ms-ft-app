@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/amarilloBeige">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/amarilloBeige">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/selectLenguage"
+            android:id="@+id/patientanguageSelection"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/spanishbtn"
+            android:layout_gravity="center"
+            android:src="@drawable/spain"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="spanishbtn"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/englishbtn"
+            android:layout_gravity="center"
+            android:src="@drawable/brit"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="englishbtn"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/germanbtn"
+            android:layout_gravity="center"
+            android:src="@drawable/aleman"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="germanbtn"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/frenchbtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/french"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="frenchbtn"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/chinabtn"
+            android:layout_gravity="center"
+            android:src="@drawable/china"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="chinesebtn"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/swedenbtn"
+            android:layout_gravity="center"
+            android:src="@drawable/sweden"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="swedenbtn"
+            android:clickable="true" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/russianbtn"
+            android:layout_gravity="center"
+            android:src="@drawable/russia"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:contentDescription="russianbtn"
+            android:clickable="true"
+            android:baselineAlignBottom="false" />
+
+        <ImageButton
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:id="@+id/moroccobtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:contentDescription="moroccobtn"
+            android:onClick="onClickButtonsSelectLanguage"
+            android:src="@drawable/morocco" />
+    </LinearLayout>
+</ScrollView>

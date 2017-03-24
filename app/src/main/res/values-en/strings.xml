@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">Medical Field</string>
+    <string name="phrases">Phrases</string>
+    <string name="AdministrativeMatter">Administrative Matters</string>
+    <string name="QuickTranslator">Quick Translator</string>
+    <string name="Patient">Patient</string>
+    <string name="Emergencies">Emergencies</string>
+    <string name="FamilyDoctor">Family Doctor</string>
+    <string name="Ear">Ear/Nasopharyngeal</string>
+    <string name="OralHealth">Oral Health</string>
+    <string name="Vision">Ophthalmology</string>
+    <string name="Gynecology">Gynecology</string>
+    <string name="Neurology">Neurology</string>
+    <string name="Cardiology">Cardiology</string>
+    <string name="MentalHealth">Mental Health</string>
+    <string name="Digestive">Digestive</string>
+    <string name="Respiratory">Respiratory</string>
+    <string name="UrogenitalSystem">Urogenital System</string>
+    <string name="Dermatology">Dermatology</string>
+    <string name="NervousSystem">Nervous System</string>
+    <string name="Traumatology">Traumatology</string>
+    <string name="Obstetrics">Obstetrics</string>
+    <string name="Pediatrics">Pediatrics</string>
+    <string name="selectSymptoms">Select your Symptoms</string>
+    <string name="selectHistory">Select your History</string>
+    <string name="selectAllergies">Select your Allergies</string>
+    <string name="country_prompt">I am/ Yo soy</string>
+    <string name="Translatebtn">Translate/Traducir</string>
+    <string name="HearTranslationbtn">Listen/Escuchar</string>
+    <string name="Listen">Listen</string>
+    <string name="TranslationArea">Translation/Traducción</string>
+    <string name="Symptoms">Symptoms</string>
+    <string name="Problems">Problem</string>
+    <string name="LoadingSymptoms">Loading Symptoms. Please, wait...</string>
+    <string name="LoadingProblems">Loading Problems. Please, wait...</string>
+    <string name="AllergiesHistoryButton">Allergies / History</string>
+    <string name="Indications">Indications</string>
+    <string name="ChangeUser">ChangeUser</string>
+    <string-array name="patient_professional">
+        <item>Patient</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">Main</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="SendToEmail">Send to your e-mail</string>
+    <string name="Send">Send</string>
+    <string name="Diagnosis">Diagnosis</string>
+    <string name="Protocol">Protocol</string>
+    <string name="response">Response:</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/amarilloBeige">
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/patient"
+        android:layout_gravity="center"
+        android:onClick="onClickButtonsSelectPatientOrProfessional"
+        android:src="@drawable/family"
+        android:layout_marginTop="96dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/professional"
+        android:layout_alignStart="@+id/professional" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/professional"
+        android:layout_gravity="center"
+        android:onClick="onClickButtonsSelectPatientOrProfessional"
+        android:src="@drawable/doctor"
+        android:layout_below="@+id/patient"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

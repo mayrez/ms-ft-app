@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amarilloBeige">#FFF8BC</color>
+    <color name="verdePistacho">#CBFF5C</color>
+    <color name="colorBarraHorizontal">#CBFF5C</color>
+    <color name="verdeceleste">#A3FFA3</color>
+    <color name="verdeturquesa">#0DFF97</color>
+    <color name="verdepistachoclaro">#CCFF97</color>
+    <drawable name="highlight_pressed">#98dff3</drawable>
+    <drawable name="highlight_focused">#b9e6f3</drawable>
+    <color name="primary">#3f51b5</color>
+    <color name="primary_dark">#1a237e</color>
+    <color name="accent">#ffee58</color>
+    <color name="titleTGreyTextColor">#6E6E6E</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00000000</color>
+</resources>

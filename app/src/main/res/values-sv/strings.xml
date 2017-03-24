@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">lääketieteen alalla</string>
+    <string name="phrases">Fraser</string>
+    <string name="AdministrativeMatter">förvaltningsärenden</string>
+    <string name="QuickTranslator">snabb översättare</string>
+    <string name="Patient">Patienten</string>
+    <string name="Emergencies">Nödsituationer</string>
+    <string name="FamilyDoctor">Husläkare</string>
+    <string name="Ear">Öron / Nasofaryngeala</string>
+    <string name="OralHealth">Oral hälsa</string>
+    <string name="Vision">Oftalmologi</string>
+    <string name="Gynecology">Gynekologi</string>
+    <string name="Neurology">Neurologi</string>
+    <string name="Cardiology">Kardiologi</string>
+    <string name="MentalHealth">Mental Hälsa</string>
+    <string name="Digestive">Matsmältningssystemet</string>
+    <string name="Respiratory">Andningsorganen</string>
+    <string name="UrogenitalSystem">Urogenitala System</string>
+    <string name="Dermatology">Dermatologi</string>
+    <string name="NervousSystem">Nervsystem</string>
+    <string name="Traumatology">Traumatologi</string>
+    <string name="Obstetrics">Obstetrik</string>
+    <string name="Pediatrics">Pediatrics</string>
+    <string name="selectSymptoms">Välj dina symptom</string>
+    <string name="selectHistory">Välj din historia</string>
+    <string name="selectAllergies">Välj Allergier</string>
+    <string name="country_prompt">Jag är/Yo soy</string>
+    <string name="Translatebtn">Översätta/Traducir</string>
+    <string name="HearTranslationbtn">Lyssna/Escuchar</string>
+    <string name="Listen">Lyssna</string>
+    <string name="TranslationArea">Översättning/Traducción</string>
+    <string name="Symptoms">Symptom</string>
+    <string name="Problems">Problem</string>
+    <string name="LoadingSymptoms">Laddar Symptom. Snälla, vänta ...</string>
+    <string name="LoadingProblems">Laddar Problem. Snälla, vänta ...</string>
+    <string name="AllergiesHistoryButton">Allergier / Historia</string>
+    <string name="Indications">Indikationer</string>
+    <string name="ChangeUser">Ändra användare</string>
+    <string-array name="patient_professional">
+        <item>Patienten</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">huvud</string>
+    <string name="settings">Inställningar</string>
+    <string name="help">Hjälp</string>
+    <string name="SendToEmail">Skicka till e-post</string>
+    <string name="Send">Skicka</string>
+    <string name="Diagnosis">Diagnos</string>
+    <string name="Protocol">Protokoll</string>
+    <string name="response">Svar:</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">المجال الطبي</string>
+    <string name="phrases">العبارات</string>
+    <string name="AdministrativeMatter">المسائل الإدارية</string>
+    <string name="QuickTranslator">المترجم سريع</string>
+    <string name="Patient"> المريض </string>
+    <string name="Emergencies">  حالات الطوارئ  </string>
+    <string name="FamilyDoctor"> طبيب الأسرة </string>
+    <string name="Ear">  الأذن / البلعوم </string>
+    <string name="OralHealth"> صحة الفم  </string>
+    <string name="Vision"> طب عيون </string>
+    <string name="Gynecology">  طب النساء </string>
+    <string name="Neurology"> علم الأعصاب  </string>
+    <string name="Cardiology"> طب القلب </string>
+    <string name="MentalHealth"> صحة نفسية </string>
+    <string name="Digestive"> الجهاز الهضمي </string>
+    <string name="Respiratory">  الجهاز التنفسي  </string>
+    <string name="UrogenitalSystem"> الجهاز البولي التناسلي  </string>
+    <string name="Dermatology"> طب الأمراض الجلدية  </string>
+    <string name="NervousSystem"> النظام العصبي  </string>
+    <string name="Traumatology"> الكسور  </string>
+    <string name="Obstetrics"> طب التوليد  </string>
+    <string name="Pediatrics"> طب الاطفال </string>
+    <string name="selectSymptoms">تحديد الأعراض الخاصة بك </string>
+    <string name="selectHistory">حدد التاريخ الخاص بك</string>
+    <string name="selectAllergies">تحديد الحساسية الخاصة بك</string>
+    <string name="country_prompt"> انا / Yo soy</string>
+    <string name="Translatebtn">ترجم/Traducir</string>
+    <string name="HearTranslationbtn">استمع/Escuchar</string>
+    <string name="Listen">استمع</string>
+    <string name="TranslationArea">ترجمة/Traducción</string>
+    <string name="Symptoms">الأعراض</string>
+    <string name="Problems">المشاكل</string>
+    <string name="LoadingSymptoms">تحميل الأعراض. يرجى الانتظار ...</string>
+    <string name="LoadingProblems">مشاكل التحميل. يرجى الانتظار ...</string>
+    <string name="AllergiesHistoryButton">الحساسية / التاريخ</string>
+    <string name="Indications">مؤشرات</string>
+    <string name="ChangeUser">تغيير المستخدم</string>
+    <string-array name="patient_professional">
+        <item>المريض</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">رئيسي</string>
+    <string name="settings">الإعدادات</string>
+    <string name="help">رئيسي</string>
+    <string name="SendToEmail">إرسال إلى بريد إلكتروني</string>
+    <string name="Send">إرسال</string>
+    <string name="Diagnosis">التشخيص</string>
+    <string name="Protocol">بروتوكول</string>
+    <string name="response">ا:ستجاب:</string>
+</resources>

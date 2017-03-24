@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <item android:id="@+id/menu_quickTranslator"
+            android:title="Traductor" />
+
+        <item android:id="@+id/menu_phrases"
+        android:title="Expresiones" />
+
+        <item android:id="@+id/menu_searchProblems"
+            android:title="Buscar Problemas" />
+
+        <item android:id="@+id/helpMenu"
+            android:title="Ayuda" />
+
+</menu>

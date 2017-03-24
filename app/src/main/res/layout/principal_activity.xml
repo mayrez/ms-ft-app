@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarilloBeige">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/amarilloBeige">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Profesional"
+            android:id="@+id/principalTitle"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_alignParentTop="false"
+            android:layout_marginTop="40dp"
+            android:layout_alignParentStart="false"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/titleTGreyTextColor"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBarraHorizontal"
+            android:layout_marginTop="90dp" />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="@string/AreaMedica"
+            android:id="@+id/medicalFieldbtn"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:background="@color/verdePistacho"
+            android:onClick="onClickButtonsMainMenu"
+            android:layout_gravity="center"
+            android:layout_above="@+id/phrasesbtn"
+            android:layout_alignLeft="@+id/phrasesbtn"
+            android:layout_alignStart="@+id/phrasesbtn"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="@string/Expresiones"
+            android:id="@+id/phrasesbtn"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:background="@color/verdeceleste"
+            android:onClick="onClickButtonsMainMenu"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/admattersbtn"
+            android:layout_alignStart="@+id/admattersbtn"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="@string/TemasAdministrativos"
+            android:id="@+id/admattersbtn"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:background="@color/verdeturquesa"
+            android:onClick="onClickButtonsMainMenu"
+            android:layout_gravity="center"
+            android:layout_below="@+id/phrasesbtn"
+            android:layout_alignLeft="@+id/quicktransbtn"
+            android:layout_alignStart="@+id/quicktransbtn"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:text="@string/TraductorRapido"
+            android:id="@+id/quicktransbtn"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:background="@color/verdepistachoclaro"
+            android:onClick="onClickButtonsMainMenu"
+            android:layout_gravity="center"
+            android:layout_below="@+id/admattersbtn"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

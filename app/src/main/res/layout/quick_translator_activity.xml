@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarilloBeige">
+
+    <Spinner
+        android:id="@+id/languagesspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/patient_professional"
+        android:prompt="@string/country_prompt"
+        android:layoutMode="opticalBounds"
+        android:textAlignment="center"
+        android:theme="@style/Widget.AppCompat.Spinner.DropDown"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/qtselecttitle"
+        android:layout_alignLeft="@+id/etUserText"
+        android:layout_alignStart="@+id/etUserText"
+        android:layout_alignRight="@+id/bSpeak"
+        android:layout_alignEnd="@+id/bSpeak" />
+    <EditText
+        android:id="@+id/etUserText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/languagesspinner"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvTranslatedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TranslationArea"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_above="@+id/bSpeak"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/bTranslate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/bTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Translatebtn"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:layout_below="@+id/etUserText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shadow"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HearTranslationbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/button_shadow"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/country_prompt"
+        android:id="@+id/qtselecttitle"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/titleTGreyTextColor"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:id="@+id/horizontalineTranslator"
+        android:layout_below="@+id/bTranslate"
+        android:layout_alignRight="@+id/tvTranslatedText"
+        android:layout_alignEnd="@+id/tvTranslatedText" />
+
+
+</RelativeLayout>

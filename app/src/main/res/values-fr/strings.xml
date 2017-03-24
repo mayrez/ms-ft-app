@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">Medical Area</string>
+    <string name="phrases">Phrases</string>
+    <string name="AdministrativeMatter">Questions Administratives</string>
+    <string name="QuickTranslator">Traducteur rapide</string>
+    <string name="Patient">Patient</string>
+    <string name="Emergencies">Urgences</string>
+    <string name="FamilyDoctor">Médecin de famille</string>
+    <string name="Ear">Oreille/Nasopharyngé</string>
+    <string name="OralHealth">Santé bucco-dentaire</string>
+    <string name="Vision">Ophtalmologie</string>
+    <string name="Gynecology">Gynécologie</string>
+    <string name="Neurology">Neurologie</string>
+    <string name="Cardiology">Cardiologie</string>
+    <string name="MentalHealth">Santé Mentale</string>
+    <string name="Digestive">Système Digestif</string>
+    <string name="Respiratory">Système Respiratoire</string>
+    <string name="UrogenitalSystem">Appareil Génito-Urinaire</string>
+    <string name="Dermatology">Dermatologie</string>
+    <string name="NervousSystem">Système Nerveux</string>
+    <string name="Traumatology">Traumatologiey</string>
+    <string name="Obstetrics">Obstétrique</string>
+    <string name="Pediatrics">Pédiatrie</string>
+    <string name="selectSymptoms">Sélectionnez vos symptômes</string>
+    <string name="selectHistory">Sélectionnez votre histoire</string>
+    <string name="selectAllergies">Sélectionnez vos allergies</string>
+    <string name="country_prompt">Je suis/Yo soy</string>
+    <string name="Translatebtn">Traduire/Traducir</string>
+    <string name="HearTranslationbtn">Écouter/Escuchar</string>
+    <string name="Listen">Écouter</string>
+    <string name="TranslationArea">Traduction/Traducción</string>
+    <string name="Symptoms">symptômes</string>
+    <string name="Problems">Problème</string>
+    <string name="LoadingSymptoms">Chargement symptômes...</string>
+    <string name="LoadingProblems">Problèmes de chargement.</string>
+    <string name="AllergiesHistoryButton">Allergies / Histoire</string>
+    <string name="Indications">Indications</string>
+    <string name="ChangeUser">Changer d\'utilisateur</string>
+    <string-array name="patient_professional">
+        <item>Patient</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">Principal</string>
+    <string name="settings">Paramètres</string>
+    <string name="help">Aidez-Moi</string>
+    <string name="SendToEmail">Envoyer à votre e-mail</string>
+    <string name="Send">Envoyer</string>
+    <string name="Diagnosis">Diagnostic</string>
+    <string name="Protocol">Protocole</string>
+    <string name="response">Résponse:</string>
+</resources>

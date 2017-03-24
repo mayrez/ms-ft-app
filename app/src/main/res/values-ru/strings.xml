@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">Медицинская область</string>
+    <string name="phrases">фразы</string>
+    <string name="AdministrativeMatter">Административные вопросы</string>
+    <string name="QuickTranslator">Быстрый переводчик</string>
+    <string name="Patient">пациент</string>
+    <string name="Emergencies">Чрезвычайные ситуации</string>
+    <string name="FamilyDoctor">Семейный Доктор</string>
+    <string name="Ear">Ухо / носоглотки</string>
+    <string name="OralHealth">Гигиена полости рта</string>
+    <string name="Vision">офтальмология</string>
+    <string name="Gynecology">гинекология</string>
+    <string name="Neurology">неврология</string>
+    <string name="Cardiology">кардиология</string>
+    <string name="MentalHealth">охрана психического здоровья</string>
+    <string name="Digestive">Пищеварительная Система</string>
+    <string name="Respiratory">Дыхательная Система</string>
+    <string name="UrogenitalSystem">Мочеполовая система</string>
+    <string name="Dermatology">дерматология</string>
+    <string name="NervousSystem">Нервная Система</string>
+    <string name="Traumatology">травматология</string>
+    <string name="Obstetrics">акушерство</string>
+    <string name="Pediatrics">педиатрия</string>
+    <string name="selectSymptoms">Выберите ваши симптомы</string>
+    <string name="selectHistory">Выбрать истории</string>
+    <string name="selectAllergies">Выберите ваши аллергии</string>
+    <string name="country_prompt"> я / yo soy</string>
+    <string name="Translatebtn">перевести/Traducir</string>
+    <string name="HearTranslationbtn">слушать/Escuchar</string>
+    <string name="Listen">слушать</string>
+    <string name="TranslationArea">перевод/Traducción</string>
+    <string name="Symptoms">симптомы</string>
+    <string name="Problems">проблема</string>
+    <string name="LoadingSymptoms">Загрузка симптомы. Пожалуйста, подождите ...</string>
+    <string name="LoadingProblems">Загрузка проблем. Пожалуйста, подождите ...</string>
+    <string name="AllergiesHistoryButton">Аллергия / История</string>
+    <string name="Indications">Показания</string>
+    <string name="ChangeUser">Смена пользователя</string>
+    <string-array name="patient_professional">
+        <item>пациент</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">главный</string>
+    <string name="settings">настройки</string>
+    <string name="help">помогите</string>
+    <string name="SendToEmail">Отправить на электронную почту</string>
+    <string name="Send">послать</string>
+    <string name="Diagnosis">диагноз</string>
+    <string name="Protocol">протокол</string>
+    <string name="response">ответ:</string>
+</resources>

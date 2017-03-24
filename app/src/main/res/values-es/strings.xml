@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">Área Médica</string>
+    <string name="AdministrativeMatter">Temas Administrativos</string>
+    <string name="phrases">Expresiones</string>
+    <string name="QuickTranslator">Traductor Rápido</string>
+    <string name="Patient">Paciente</string>
+    <string name="Profesional">Profesional</string>
+    <string name="AreaMedica">Área Médica</string>
+    <string name="TemasAdministrativos">Temas Administrativos</string>
+    <string name="TraductorRapido">Traductor Rápido</string>
+    <string name="Emergencies">Emergencias</string>
+    <string name="FamilyDoctor">Médico de Familia</string>
+    <string name="Ear">Otorrinoralingólogo</string>
+    <string name="OralHealth">Salud Bucal</string>
+    <string name="Vision">Oftalmología</string>
+    <string name="Gynecology">Ginecología</string>
+    <string name="Neurology">Neurología</string>
+    <string name="Cardiology">Cardiología</string>
+    <string name="MentalHealth">Salud Mental</string>
+    <string name="Digestive">Digestivo</string>
+    <string name="Respiratory">Respiratorio</string>
+    <string name="UrogenitalSystem">Sistema Urogenital</string>
+    <string name="Dermatology">Dermatologia</string>
+    <string name="NervousSystem">Sistema Nervioso</string>
+    <string name="Traumatology">Traumatología</string>
+    <string name="Obstetrics">Obstetricia</string>
+    <string name="Pediatrics">Pediatría</string>
+    <string name="selectSymptoms">Seleccione sus Síntomas</string>
+    <string name="selectHistory">Seleccione su Historial</string>
+    <string name="selectAllergies">Seleccione sus Alergias</string>
+    <string name="country_prompt">Yo soy</string>
+    <string name="Translatebtn">Traducir</string>
+    <string name="HearTranslationbtn">Escuchar</string>
+    <string name="Listen">Escuchar</string>
+    <string name="TranslationArea">Traducción</string>
+    <string name="Symptoms">Síntomas</string>
+    <string name="Problems">Problema</string>
+    <string name="LoadingSymptoms">Cargando Síntomas. Espere, por favor...</string>
+    <string name="LoadingProblems">Cargando Problemas. Espere, por favor...</string>
+    <string name="AllergiesHistoryButton">Alergias / Antecedentes</string>
+    <string name="Indications">Indicaciones</string>
+    <string name="ChangeUser">ChangeUser</string>
+    <string-array name="patient_professional">
+        <item>Paciente</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string-array name="country_arrays">
+        <item>Árabe</item>
+        <item>Chino</item>
+        <item>Inglés</item>
+        <item>Francés</item>
+        <item>Alemán</item>
+        <item>Ruso</item>
+        <item>Español</item>
+        <item>Sueco</item>
+    </string-array>
+    <string name="main">Principal</string>
+    <string name="settings">Ajustes</string>
+    <string name="help">Ayuda</string>
+    <string name="SendToEmail">Enviar al correo</string>
+    <string name="Send">Enviar</string>
+    <string name="Diagnosis">Diagnóstico</string>
+    <string name="Protocol">Protocolo</string>
+    <string name="response">Respuesta:</string>
+</resources>

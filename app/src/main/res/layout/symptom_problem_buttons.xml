@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/footer">
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:text="¿Otros Síntomas?"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:id="@+id/askMoreSymptomsBtn"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shadow"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:text="Preguntas"
+        android:id="@+id/questionsBtn"
+        android:background="@drawable/button_shadow"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/askMoreSymptomsBtn"
+        android:layout_toEndOf="@+id/askMoreSymptomsBtn"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

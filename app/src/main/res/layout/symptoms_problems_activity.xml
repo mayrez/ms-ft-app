@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/symptomsProblems"
+    android:layout_weight="1">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/sintomas"
+        android:background="@color/amarilloBeige">
+        <LinearLayout android:id="@+id/bottom_control_bar"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/AlergiasHistorial"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:background="@drawable/button_shadow"
+                android:id="@+id/alergiasHistorialBtn"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sintomasPacienteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SintomasPaciente"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBarraHorizontal"
+            android:layout_marginTop="55dp" />
+        <ListView
+            android:id="@+id/symptomsList"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"
+            android:scrollbarStyle="outsideOverlay"
+            android:paddingBottom="8dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:footerDividersEnabled="false"
+            android:layout_marginTop="60dp"
+            android:background="@color/amarilloBeige">
+
+        </ListView>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBarraHorizontal"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/problemas"
+        android:background="@color/amarilloBeige">
+
+
+        <TextView
+            android:id="@+id/problemaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SeleccioneProblema"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBarraHorizontal"
+            android:layout_marginTop="55dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioProblemList"
+            android:layout_marginTop="55dp"></RadioGroup>
+        <LinearLayout android:id="@+id/bottom_control_bar"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Indicaciones"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:background="@drawable/button_shadow"
+                android:id="@+id/indicacionesBtn"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBarraHorizontal"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@color/verdeceleste"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BuscarOtros"
+            android:id="@+id/buscarOtrosProblemasBtn"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_shadow"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="29dp"
+            android:background="@color/verdeceleste"
+            />
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/problemsSelectedBtn"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_shadow"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@color/verdeceleste"
+            />
+    </LinearLayout>
+</LinearLayout>

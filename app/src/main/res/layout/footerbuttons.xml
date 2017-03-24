@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/footer">
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Problema"
+        android:id="@+id/changeProblemBtn"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shadow"
+        android:textColor="@color/abc_secondary_text_material_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Añadir Protocolo"
+        android:id="@+id/addProtocolsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shadow"
+        android:textStyle="bold"
+        android:textColor="@color/abc_secondary_text_material_light" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:id="@+id/protocolsOkBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shadow"
+        android:textStyle="bold"
+        android:textColor="@color/abc_secondary_text_material_light" />
+</RelativeLayout>

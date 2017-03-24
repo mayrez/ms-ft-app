@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- The main content view -->
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="@color/amarilloBeige">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/amarilloBeige"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/AreaMedica"
+            android:id="@+id/medicalFieldtitle"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/titleTGreyTextColor" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBarraHorizontal"
+            android:layout_marginTop="10dp" />
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/emergenciesbtn"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/emergencies" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Urgencias"
+            android:id="@+id/emergencytxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/familydctorbtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/general"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/MedicoCabecera"
+            android:id="@+id/familydoctortxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/Pediatricsbtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/pediatrics"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Pediatria"
+            android:id="@+id/pediatricstxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/obstetricsbtn"
+            android:layout_gravity="center"
+            android:src="@drawable/obstetrics"
+            android:onClick="onClickButtonsMedicalField"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Obstetricia"
+            android:id="@+id/obtetricstxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/gynecologybtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/gynecology"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Ginecologia"
+            android:id="@+id/ginecologytxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/earsbtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/ear"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Oido"
+            android:id="@+id/eartxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/oralhealthbtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/mouth"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SaludBucal"
+            android:id="@+id/oralhealthtxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/visionbtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/eyes"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Oftalmologia"
+            android:id="@+id/visiontxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/neurologybtn"
+            android:layout_gravity="center"
+            android:src="@drawable/neurology"
+            android:onClick="onClickButtonsMedicalField"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Neurologia"
+            android:id="@+id/neurologytxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/cardiologybtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/heart"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Cardiologia"
+            android:id="@+id/cardiologytxt"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/digestivebtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/digestive"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Digestivo"
+            android:id="@+id/digestivetxt"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/respiratorybtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/pulmon"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/AparatoRespiratorio"
+            android:id="@+id/respiratorytxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/urogenitalsystembtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/urogenital"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SistemaUrogenital"
+            android:id="@+id/urogenitaltxt"
+            android:layout_gravity="center" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/dermatologybtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/dermatology"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Dermatologia"
+            android:id="@+id/dermatologytxt"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/traumatologybtn"
+            android:layout_gravity="center"
+            android:src="@drawable/traumatology"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickButtonsMedicalField" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/Traumatologia"
+            android:id="@+id/traumatologytxt"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField" />
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:id="@+id/mentalhealthbtn"
+            android:layout_gravity="center"
+            android:onClick="onClickButtonsMedicalField"
+            android:src="@drawable/mentalhealth"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/SaludMental"
+            android:id="@+id/mentaltxt"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+    </FrameLayout>
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="@color/verdepistachoclaro"/>
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MSOCIAL</string>
+    <string name="spanish">spanish</string>
+    <string name="medicalField">医疗领域</string>
+    <string name="phrases">短语</string>
+    <string name="AdministrativeMatter">行政事项</string>
+    <string name="QuickTranslator">快速翻译</string>
+    <string name="Patient">病人</string>
+    <string name="Emergencies">紧急情况</string>
+    <string name="FamilyDoctor">家庭医生</string>
+    <string name="Ear">耳/鼻咽</string>
+    <string name="OralHealth">口腔健康</string>
+    <string name="Vision">眼科</string>
+    <string name="Gynecology">妇科</string>
+    <string name="Neurology">神经内科</string>
+    <string name="Cardiology">心脏病</string>
+    <string name="MentalHealth">心理健康</string>
+    <string name="Digestive">消化系统</string>
+    <string name="Respiratory">呼吸系统</string>
+    <string name="UrogenitalSystem">泌尿生殖系统</string>
+    <string name="Dermatology">皮肤科</string>
+    <string name="NervousSystem">神经系统</string>
+    <string name="Traumatology">外伤学</string>
+    <string name="Obstetrics">产科</string>
+    <string name="Pediatrics">儿科</string>
+    <string name="selectSymptoms">选择您的症状</string>
+    <string name="selectHistory">选择历史记录</string>
+    <string name="selectAllergies">选择你的过敏</string>
+    <string name="country_prompt">我是/Yo soy</string>
+    <string name="Translatebtn">翻译/Traducir</string>
+    <string name="HearTranslationbtn">听/Escuchar</string>
+    <string name="Listen">听</string>
+    <string name="TranslationArea">翻译/Traducción</string>
+    <string name="Symptoms">症状</string>
+    <string name="Problems">问题</string>
+    <string name="LoadingSymptoms">加载症状。请稍候...</string>
+    <string name="LoadingProblems">负载问题。请稍候...</string>
+    <string name="AllergiesHistoryButton">过敏/历史</string>
+    <string name="Indications">适应症</string>
+    <string name="ChangeUser">更改用户</string>
+    <string-array name="patient_professional">
+        <item>病人</item>
+        <item>El Profesional</item>
+    </string-array>
+    <string name="main">主</string>
+    <string name="settings">设置</string>
+    <string name="help">救命</string>
+    <string name="SendToEmail">发送到您的邮箱</string>
+    <string name="Send">发送</string>
+    <string name="Diagnosis">诊断</string>
+    <string name="Protocol">协议</string>
+    <string name="response">响应:</string>
+</resources>

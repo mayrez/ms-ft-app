@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <item android:id="@+id/menu_quickTranslator"
+        android:title="Traductor" />
+
+    <item android:id="@+id/search_protocol"
+        android:title="Buscar Protocolo" />
+
+    <item android:id="@+id/menu_Problemas"
+        android:title="Cambiar Problema" />
+
+    <item android:id="@+id/helpMenu"
+        android:title="Ayuda" />
+
+</menu>
